@@ -1,0 +1,29 @@
+
+
+    body {
+        font-family: 'Open Sans', sans-serif;
+        color: #831D18;
+        background-color: antiquewhite;
+        padding-left: 100px;
+        padding-right: 100px;
+       
+    }
+
+    a {
+     color:#831D18;
+    }
+
+    a:hover {
+        color: darkblue
+    }
+
+    .headerverlinkungen {
+        
+        display: flex;
+        justify-content: space-between;
+        text-decoration: none !important; 
+        font-weight: 700;
+        right: 0;
+        position: absolute;
+    }
+
