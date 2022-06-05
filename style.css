@@ -58,6 +58,16 @@
         padding: 8px;
     }
 
+    .imagelotteWorld {
+        width: 765px;
+        height: 491px;
+        display: block;
+    }
+
+    .imageLotteworldtext {
+        padding: 8px;
+    }
+
     .imageLotteworldtower {
         width: 741px;
         height: 494px;
