@@ -31,26 +31,51 @@
     .imageBevölkerungszahl {
         width: 700px;
         height: 500px;
+        display: block;
     }
 
-    .imagegangnam {
+    .imageBevölkerungszahltext {
+        padding: 8px;
+    }
+
+    .imageGangnam {
         width: 490px;
         height: 653px;
+        display: block;
     }
 
-    .imagehangang {
+    .imageGangnamtext {
+        padding: 8px; 
+    }
+
+    .imageHangang {
         width: 720px;
         height: 405px;
+        display: block;
     }
 
-    .imagelotteworldtower {
+    .imageHangangtext {
+        padding: 8px;
+    }
+
+    .imageLotteworldtower {
         width: 741px;
         height: 494px;
+        display: block;
     }
 
-    .imagentower {
+    .imageLotteworldtowertext {
+        padding: 8px;
+    }
+
+    .imageNtower {
         width: 335px;
         height: 503px;
+        display: block;
+    }
+
+    .imageNtowertext {
+        padding: 8px;
     }
 
 
