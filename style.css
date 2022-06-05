@@ -17,13 +17,41 @@
         color: darkblue
     }
 
-    .headerverlinkungen {
-        
-        display: flex;
-        justify-content: space-between;
-        text-decoration: none !important; 
-        font-weight: 700;
-        right: 0;
+    .headlinks {
+        display:flex;               /*Für Verschieben nötig. Damit fängt es immer an */
+        justify-content:space-between ; /*Verschiedene Verschieben Features. Einfach mit tab durchschauen */
         position: absolute;
+        top: 8px;
+        right: 32px;
+        font-weight: 700;
+        text-decoration: none; 
+        margin-right: 32px;
     }
+
+    .imageBevölkerungszahl {
+        width: 700px;
+        height: 500px;
+    }
+
+    .imagegangnam {
+        width: 490px;
+        height: 653px;
+    }
+
+    .imagehangang {
+        width: 720px;
+        height: 405px;
+    }
+
+    .imagelotteworldtower {
+        width: 741px;
+        height: 494px;
+    }
+
+    .imagentower {
+        width: 335px;
+        height: 503px;
+    }
+
+
 
