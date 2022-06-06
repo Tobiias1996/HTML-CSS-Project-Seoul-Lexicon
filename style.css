@@ -1,92 +1,89 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #831D18;
+    background-color: antiquewhite;
+    padding-left: 100px;
+    padding-right: 100px;
 
+}
 
-    body {
-        font-family: 'Open Sans', sans-serif;
-        color: #831D18;
-        background-color: antiquewhite;
-        padding-left: 100px;
-        padding-right: 100px;
-       
-    }
+a {
+    color: #831D18;
+}
 
-    a {
-     color:#831D18;
-    }
+a:hover {
+    color: darkblue
+}
 
-    a:hover {
-        color: darkblue
-    }
+.headlinks {
+    display: flex;
+    /*Für Verschieben nötig. Damit fängt es immer an */
+    justify-content: space-between;
+    /*Verschiedene Verschieben Features. Einfach mit tab durchschauen */
+    position: absolute;
+    top: 8px;
+    right: 32px;
+    font-weight: 700;
+    text-decoration: none;
+    margin-right: 32px;
+}
 
-    .headlinks {
-        display:flex;               /*Für Verschieben nötig. Damit fängt es immer an */
-        justify-content:space-between ; /*Verschiedene Verschieben Features. Einfach mit tab durchschauen */
-        position: absolute;
-        top: 8px;
-        right: 32px;
-        font-weight: 700;
-        text-decoration: none; 
-        margin-right: 32px;
-    }
+.imageBevölkerungszahl {
+    width: 700px;
+    height: 500px;
+    display: block;
+}
 
-    .imageBevölkerungszahl {
-        width: 700px;
-        height: 500px;
-        display: block;
-    }
+.imageBevölkerungszahltext {
+    padding: 8px;
+}
 
-    .imageBevölkerungszahltext {
-        padding: 8px;
-    }
+.imageGangnam {
+    width: 490px;
+    height: 653px;
+    display: block;
+}
 
-    .imageGangnam {
-        width: 490px;
-        height: 653px;
-        display: block;
-    }
+.imageGangnamtext {
+    padding: 8px;
+}
 
-    .imageGangnamtext {
-        padding: 8px; 
-    }
+.imageHangang {
+    width: 720px;
+    height: 405px;
+    display: block;
+}
 
-    .imageHangang {
-        width: 720px;
-        height: 405px;
-        display: block;
-    }
+.imageHangangtext {
+    padding: 8px;
+}
 
-    .imageHangangtext {
-        padding: 8px;
-    }
+.imagelotteWorld {
+    width: 765px;
+    height: 491px;
+    display: block;
+}
 
-    .imagelotteWorld {
-        width: 765px;
-        height: 491px;
-        display: block;
-    }
+.imageLotteworldtext {
+    padding: 8px;
+}
 
-    .imageLotteworldtext {
-        padding: 8px;
-    }
+.imageLotteworldtower {
+    width: 741px;
+    height: 494px;
+    display: block;
+}
 
-    .imageLotteworldtower {
-        width: 741px;
-        height: 494px;
-        display: block;
-    }
+.imageLotteworldtowertext {
+    padding: 8px;
+}
 
-    .imageLotteworldtowertext {
-        padding: 8px;
-    }
+.imageNtower {
+    width: 335px;
+    height: 503px;
+    display: block;
+}
 
-    .imageNtower {
-        width: 335px;
-        height: 503px;
-        display: block;
-    }
-
-    .imageNtowertext {
-        padding: 8px;
-    }
-
-
-
+.imageNtowertext {
+    padding: 8px;
+}
