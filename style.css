@@ -5,28 +5,71 @@ body {
     padding-left: 100px;
     padding-right: 100px;
 
+
 }
 
 a {
-    color: #831D18;
+    color: darkorange;
+    text-decoration: none;
+    font-weight: bolder;
+
+
 }
 
 a:hover {
-    color: darkblue
+    color: darkblue;
 }
+
 
 .headlinks {
     display: flex;
     /*Für Verschieben nötig. Damit fängt es immer an */
     justify-content: space-between;
     /*Verschiedene Verschieben Features. Einfach mit tab durchschauen */
-    position: absolute;
-    top: 8px;
-    right: 32px;
     font-weight: 700;
-    text-decoration: none;
-    margin-right: 32px;
+    align-items: center;
+
 }
+
+a.link1 {
+    text-decoration: underline;
+    color: crimson;
+    font-size: 19px;
+    margin-left: 16px;
+}
+
+a.link1:hover {
+    color: darkblue;
+}
+
+a.link2 {
+    text-decoration: underline;
+    color: crimson;
+    font-size: 19px;
+    margin-left: 16px;
+}
+
+a.link2:hover {
+    color: darkblue;
+}
+
+
+a.link3 {
+    text-decoration: underline;
+    color: crimson;
+    font-size: 19px;
+    margin-left: 16px;
+}
+
+a.link3:hover {
+    color: darkblue;
+}
+
+
+.verzeichnisfont-weight {
+    font-weight: 100;
+}
+
 
 .imageBevölkerungszahl {
     width: 700px;
@@ -48,10 +91,24 @@ a:hover {
     padding: 8px;
 }
 
+
+a.gangnamStyle {
+    font-weight: 100;
+}
+
+
 .imageHangang {
     width: 720px;
     height: 405px;
     display: block;
+}
+
+.imageFlaeche {
+    width: 60%;
+}
+
+a.linkFlaeche {
+    font-weight: 100;
 }
 
 .imageHangangtext {
@@ -86,4 +143,9 @@ a:hover {
 
 .imageNtowertext {
     padding: 8px;
+}
+
+.letzterLink {
+    font-size: x-large;
+    color: crimson;
 }

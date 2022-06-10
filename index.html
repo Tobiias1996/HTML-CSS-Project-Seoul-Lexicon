@@ -18,30 +18,32 @@
   <body>
     <header>
       <div class="headlinks">
+        <h1>Kleines Seoul Lexikon</h1>
         <div>
           Nützliche Links:
           <a
             href="https://german.korea.net/"
             target="_blank"
             title="Auf Deutsch"
+            class="link1"
             >Korea.net</a
           >
           <a
             href="https://english.visitseoul.net/index"
             target="_blank"
             title="Auf Englisch"
+            class="link2"
             >Visit Seoul</a
           >
           <a
             href="https://english.seoul.go.kr/"
             target="_blank"
             title="Auf Englisch"
+            class="link3"
             >Stadt Seoul</a
           >
         </div>
       </div>
-
-      <h1>Kleines Seoul Lexikon</h1>
 
       <p><em>work in progress</em></p>
 
@@ -67,7 +69,9 @@
       <p>
         <em>Anmerkung:</em> Die hier angeführten Bilder gehören mir
         <strong>nicht</strong> und stammen von
-        <a href="https://unsplash.com/" target="_blank">unsplash.com</a> Einige
+        <a href="https://unsplash.com/" target="_blank">unsplash.com</a>
+        beziehungsweise
+        <a href="https://wallhaven.cc/" target="_blank">wallhaven.cc</a>. Einige
         der hier angeführten Fakten und Daten stammen aus Wikipedia. Dieses
         Projekt dient <strong>ausschließlich</strong> als Beispielarbeit für
         mein Portfolio. Damit einhergehend gibt es keinerlei Anspruch auf
@@ -82,13 +86,15 @@
 
       <nav>
         <ul>
-          <li><a href="#Bevölkerungszahl">Bevölkerungszahl</a></li>
-          <li><a href="#Fläche">Fläche</a></li>
-          <li><a href="#Gangnam">Gangnam</a></li>
-          <li><a href="#Hangang">Hangang</a></li>
-          <li><a href="#LotteWorld">Lotte World</a></li>
-          <li><a href="#LotteWorldTower">Lotte World Tower</a></li>
-          <li><a href="#NSeoulTower">N Seoul Tower</a></li>
+          <div class="verzeichnisfont-weight">
+            <li><a href="#Bevölkerungszahl">Bevölkerungszahl</a></li>
+            <li><a href="#Fläche">Fläche</a></li>
+            <li><a href="#Gangnam">Gangnam</a></li>
+            <li><a href="#Hangang">Hangang</a></li>
+            <li><a href="#LotteWorld">Lotte World</a></li>
+            <li><a href="#LotteWorldTower">Lotte World Tower</a></li>
+            <li><a href="#NSeoulTower">N Seoul Tower</a></li>
+          </div>
         </ul>
       </nav>
 
@@ -132,24 +138,40 @@
         <a href="#">Zurück zum Seitenanfang</a>
       </section>
       <hr />
+      <div class="geil">
+        <section id="Fläche">
+          <h2>Fläche</h2>
 
-      <section id="Fläche">
-        <h2>Fläche</h2>
+          Mit einer <strong>Fläche</strong> von 605,52 km² ist Seoul trotz
+          seiner höheren Einwohnerzahlen beispielsweise kleiner
 
-        Mit einer <strong>Fläche</strong> von 605,52 km² ist Seoul trotz seiner
-        höheren Einwohnerzahlen beispielsweise kleiner
+          <ul>
+            <li>...als London (1572 km²)</li>
+            <li>...als Sankt Petersburg (1431 km²)</li>
+            <li>...als Rom (1287,38 km²)</li>
+            <li>...als Berlin (891,7 km²)</li>
+            <li>...als Toronto (630,18 km²)</li>
+          </ul>
+          <figure>
+            <img
+              src="Images/Flaeche.jpg"
+              alt="Fläche"
+              title="Seoul bei Nacht"
+              loading="lazy"
+              class="imageFlaeche"
+            />
+            <br />
+          </figure>
+          <em
+            >Weite Teile von Seoul bei Nacht. Das Lichtermeer weiß zu
+            beeindrucken. Weit in der Ferne ist der
+            <a href="#NSeoulTower" class="linkFlaeche">N Seoul Tower</a> zu
+            erahnen.</em
+          >
 
-        <ul>
-          <li>...als London (1572 km²)</li>
-          <li>...als Sankt Petersburg (1431 km²)</li>
-          <li>...als Rom (1287,38 km²)</li>
-          <li>...als Berlin (891,7 km²)</li>
-          <li>...als Toronto (630,18 km²)</li>
-        </ul>
-
-        <a href="#">Zurück zum Seitenanfang</a>
-      </section>
-
+          <p><a href="#">Zurück zum Seitenanfang</a></p>
+        </section>
+      </div>
       <hr />
 
       <section id="Gangnam">
@@ -184,6 +206,7 @@
             Durch das Lied "<a
               href="https://www.youtube.com/watch?v=9bZkp7q19f0"
               target="_blank"
+              class="gangnamStyle"
               >Gangnam Style</a
             >" des südkoreanischen Musikers "Psy" ist der Stadtteil auch
             weltweit berühmt geworden.</em
@@ -206,10 +229,10 @@
         Stadt W-förmig durchfließt und zweiteilt. Das führt dazu, dass eine
         Vielzahl großer Brücken zu einem der typischen Charakteristika Seouls
         geworden sind. Er mündet an der innerkoreanischen Grenze in das
-        <em>Gelbe Meer</em>. An den Ufern des Hangangs wurden viele Möglichkeiten
-        der Erhohlung und sportlichen Betätigung geschaffen. So gibt es neben 
-        einer Vielzahl von Restaurants ausgedehnte Fahrradwege, Parkanlagen und große 
-        Wiesen, die vor allem zum Zelten genutzt werden.
+        <em>Gelbe Meer</em>. An den Ufern des Hangangs wurden viele
+        Möglichkeiten der Erhohlung und sportlichen Betätigung geschaffen. So
+        gibt es neben einer Vielzahl von Restaurants ausgedehnte Fahrradwege,
+        Parkanlagen und große Wiesen, die vor allem zum Zelten genutzt werden.
 
         <figure>
           <img
@@ -378,7 +401,7 @@
 
     <hr />
     <footer>
-      <a href="#">Zurück zum Seitenanfang</a>
+      <a href="#" class="letzterLink">Zurück zum Seitenanfang</a>
     </footer>
   </body>
 </html>
