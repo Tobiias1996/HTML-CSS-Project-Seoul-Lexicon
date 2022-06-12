@@ -63,23 +63,49 @@ a.link3:hover {
 }
 
 .imageBevölkerungszahl {
-  width: 700px;
-  height: 500px;
+  width: 50%;
   display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 16px;
+  margin-bottom: 16px;
 }
 
-.imageBevölkerungszahltext {
-  padding: 8px;
+.imageBevölkerungszahlText {
+  text-align: center;
 }
 
+.imageFlaeche {
+  width: 60%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+a.linkFlaeche {
+  font-weight: 100;
+}
+
+.imageFlaecheText {
+  text-align: center;
+}
+
+.GangnamText {
+  display: flex;
+  justify-content: space-between;
+}
 .imageGangnam {
-  width: 490px;
-  height: 653px;
-  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  margin-left: 10px;
+
 }
 
-.imageGangnamtext {
-  padding: 8px;
+
+.imageGangnamText {
+  text-align: right;
 }
 
 a.gangnamStyle {
@@ -87,54 +113,58 @@ a.gangnamStyle {
 }
 
 .imageHangang {
-  width: 720px;
-  height: 405px;
+  width: 50%;
   display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 16px;
+  margin-bottom: 16px;
 }
 
-.imageFlaeche {
-  width: 60%;
-}
-
-a.linkFlaeche {
-  font-weight: 100;
-}
-
-.imageHangangtext {
-  padding: 8px;
+.imageHangangText {
+  text-align: center;
 }
 
 .imagelotteWorld {
-  width: 765px;
-  height: 491px;
+  width: 45%;
   display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 16px;
+  margin-bottom: 16px;
 }
 
-.imageLotteworldtext {
-  padding: 8px;
+.imageLotteworldText {
+  text-align: center;
 }
 
 .imageLotteworldtower {
-  width: 741px;
-  height: 494px;
+  width: 60%;
   display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 16px;
+  margin-bottom: 16px;
 }
 
-.imageLotteworldtowertext {
-  padding: 8px;
+.imageLotteworldtowerText {
+  text-align: center;
 }
 
 .imageNtower {
-  width: 335px;
-  height: 503px;
+  width: 30%;
   display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 16px;
+  margin-bottom: 16px;
 }
 
-.imageNtowertext {
-  padding: 8px;
+.imageNtowerText {
+  text-align: center;
 }
 
 .letzterLink {
   font-size: x-large;
-  color: crimson;
+  color:black;
 }
