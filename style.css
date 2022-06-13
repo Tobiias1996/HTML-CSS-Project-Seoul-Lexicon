@@ -62,6 +62,35 @@ a.link3:hover {
   font-weight: 100;
 }
 
+.blauerBus {
+  color: blue;
+}
+
+.gruenerBus {
+  color: green;
+}
+
+.roterBus {
+  color: red;
+}
+
+.gelberBus{
+  color:goldenrod;
+}
+
+.imageBus {
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.imageBusText {
+  text-align: center;
+}
+
 .imageBevölkerungszahl {
   width: 50%;
   display: block;
@@ -96,16 +125,10 @@ a.linkFlaeche {
   display: flex;
   justify-content: space-between;
 }
+
 .imageGangnam {
   width: 100%;
-  margin-bottom: 10px;
-  margin-left: 10px;
 
-}
-
-
-.imageGangnamText {
-  text-align: right;
 }
 
 a.gangnamStyle {
@@ -138,6 +161,11 @@ a.gangnamStyle {
   text-align: center;
 }
 
+.lotteWorldTowerText {
+  display: flex;
+  justify-content: space-between;
+}
+
 .imageLotteworldtower {
   width: 60%;
   display: block;
@@ -151,20 +179,20 @@ a.gangnamStyle {
   text-align: center;
 }
 
+.nTowerText {
+  display: flex;
+  justify-content: space-between;
+}
+
 .imageNtower {
-  width: 30%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 16px;
-  margin-bottom: 16px;
+  width: 75%;
 }
 
 .imageNtowerText {
-  text-align: center;
+  margin-left: 900px;
 }
 
 .letzterLink {
   font-size: x-large;
-  color:black;
+  color: black;
 }
