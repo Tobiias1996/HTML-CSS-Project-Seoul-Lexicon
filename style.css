@@ -2,8 +2,8 @@ body {
   font-family: "Open Sans", sans-serif;
   color: #831d18;
   background-color: antiquewhite;
-  padding-left: 100px;
-  padding-right: 100px;
+  padding-left: 75px;
+  padding-right: 75px;
 }
 
 a {
@@ -58,8 +58,22 @@ a.link3:hover {
   color: darkblue;
 }
 
+.verzeichnis {
+  display: flex;
+  justify-content: space-between;
+}
+
 .verzeichnisfont-weight {
   font-weight: 100;
+}
+
+.imageVerzeichnis {
+  width: 40%;
+  margin-left: 650px;
+}
+
+.imageVerzeichnisUntertitel {
+  margin-left: 900px;
 }
 
 .blauerBus {
@@ -74,8 +88,8 @@ a.link3:hover {
   color: red;
 }
 
-.gelberBus{
-  color:goldenrod;
+.gelberBus {
+  color: goldenrod;
 }
 
 .imageBus {
@@ -128,7 +142,6 @@ a.linkFlaeche {
 
 .imageGangnam {
   width: 100%;
-
 }
 
 a.gangnamStyle {
@@ -148,13 +161,15 @@ a.gangnamStyle {
   text-align: center;
 }
 
+.lotteWorldText {
+  display: flex;
+  justify-content: space-between;
+}
+
 .imagelotteWorld {
-  width: 45%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  width: 100%;
   margin-top: 16px;
-  margin-bottom: 16px;
+  margin-left: 10px;
 }
 
 .imageLotteworldText {
