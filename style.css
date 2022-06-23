@@ -118,6 +118,11 @@ a.link3:hover {
   text-align: center;
 }
 
+.flaecheAufzaehlung {
+  display: flex;
+  justify-content: left;
+}
+
 .imageFlaeche {
   width: 60%;
   display: block;
@@ -172,6 +177,8 @@ a.gangnamStyle {
   margin-left: 10px;
 }
 
+
+
 .imageLotteworldText {
   text-align: center;
 }
@@ -190,9 +197,28 @@ a.gangnamStyle {
   margin-bottom: 16px;
 }
 
+.lotteworldtower {
+  display: flex;
+  justify-content: space-between;
+}
+
+.imageLotteworldtowerTextII {
+  margin-right: 40px;
+  margin-left: 40px;
+  margin-top: 80px;
+
+}
+
+.imageLotteworldtowerII {
+  width: 75%;
+
+}
+
 .imageLotteworldtowerText {
   text-align: center;
 }
+
+
 
 .nTowerText {
   display: flex;
